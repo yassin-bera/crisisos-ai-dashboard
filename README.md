@@ -7,6 +7,11 @@ CrisisOS is a modern crisis management platform designed to monitor critical res
 Built with React, Vite, TailwindCSS, and Google Gemini AI.
 
 ---
+##  Live Demo
+
+https://crisisos-ai-dashboard.vercel.app/
+
+---
 
 ##  Overview
 
