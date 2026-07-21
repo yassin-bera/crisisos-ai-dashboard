@@ -1,16 +1,221 @@
-# React + Vite
+#  CrisisOS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## AI-Powered Crisis Management Dashboard
 
-Currently, two official plugins are available:
+CrisisOS is a modern crisis management platform designed to monitor critical resources, analyze emergency situations, manage requests and volunteers, and provide AI-powered operational recommendations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Built with React, Vite, TailwindCSS, and Google Gemini AI.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Overview
 
-## Expanding the ESLint configuration
+CrisisOS simulates a real-world emergency command center where operators can:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Monitor available resources
+* Track emergency requests
+* Manage volunteer teams
+* Analyze crisis conditions using AI
+* Visualize operational data
+* Generate crisis reports
+
+The system combines a modern dashboard interface with artificial intelligence to support faster decision-making during critical situations.
+
+---
+
+#  Features
+
+##  Command Dashboard
+
+* Real-time resource monitoring
+* Crisis risk level indicator
+* Emergency overview cards
+* Crisis simulation engine
+
+![Dashboard](public/screenshots/dashboard.png)
+
+---
+
+##  AI Crisis Analysis
+
+Powered by Google Gemini AI.
+
+Capabilities:
+
+* Risk assessment
+* Crisis summary generation
+* Recommended actions
+* Resource planning
+* Future prediction
+
+![AI Analysis](public/screenshots/ai-analysis.png)
+
+---
+
+##  Analytics
+
+Interactive visualization of:
+
+* Resource consumption
+* Resource status distribution
+* Crisis risk trends
+
+![Analytics](public/screenshots/analytics.png)
+
+---
+
+##  Resource Management
+
+Track critical resources:
+
+* Water
+* Medicine
+* Food
+* Fuel
+* Generator
+
+![Resources](public/screenshots/resource.png)
+
+---
+
+##  Emergency Requests
+
+Manage incoming emergency requests and update their status.
+
+![Requests](public/screenshots/requests.png)
+
+---
+
+## Volunteer Management
+
+Monitor:
+
+* Volunteer skills
+* Assigned areas
+* Availability status
+
+![Volunteers](public/screenshots/volunteers.png)
+
+---
+
+#  Tech Stack
+
+## Frontend
+
+* React
+* Vite
+* TailwindCSS
+* React Router
+
+## Data Visualization
+
+* Recharts
+
+## Artificial Intelligence
+
+* Google Gemini API
+
+## PDF Generation
+
+* jsPDF
+
+---
+
+#  Project Structure
+
+```
+src
+│
+├── components
+│   ├── Layout.jsx
+│   └── Sidebar.jsx
+│
+├── context
+│   └── CrisisContext.jsx
+│
+├── pages
+│   ├── Dashboard.jsx
+│   ├── AICommandCenter.jsx
+│   ├── Analytics.jsx
+│   ├── Resources.jsx
+│   ├── Requests.jsx
+│   └── Volunteers.jsx
+│
+├── services
+│   ├── geminiService.js
+│   └── pdfService.js
+│
+└── utils
+```
+
+---
+
+#  Installation
+
+Clone the repository:
+
+```bash
+git clone git@github.com:yassin-bera/crisisos-ai-dashboard.git
+```
+
+Navigate into the project:
+
+```bash
+cd crisisos-ai-dashboard
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+#  Environment Variables
+
+Create a `.env` file:
+
+```env
+VITE_GEMINI_API_KEY=your_gemini_api_key
+```
+
+---
+
+#  AI Architecture
+
+CrisisOS sends crisis data to Gemini AI and receives structured analysis including:
+
+* Current risk level
+* Situation summary
+* Recommended actions
+* Resource strategy
+* Future predictions
+
+---
+
+#  Future Improvements
+
+Possible future features:
+
+* Real-time database integration
+* User authentication
+* Live emergency maps
+* IoT sensor integration
+* Multi-user command center
+* Advanced AI forecasting
+
+---
+
+#  Author
+
+**Yassin Beyrami**
+
+GitHub:
+https://github.com/yassin-bera
